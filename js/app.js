@@ -204,7 +204,7 @@
                         success: function (response) {
                             response = JSON.parse(response)
                             if(response.success == true){
-                              $('.success-message').text('You have successfully submitted the form').removeClass('d-none');
+                              $('.success-message').text('We have received your response and will get back to you shortly.').removeClass('d-none');
                               $(".input-txt").val('')
                             }
                             
