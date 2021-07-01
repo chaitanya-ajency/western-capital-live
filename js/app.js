@@ -205,6 +205,7 @@
                             response = JSON.parse(response)
                             if(response.success == true){
                               $('.success-message').text('You have successfully submitted the form').removeClass('d-none');
+                              $(".input-txt").val('')
                             }
                             
                            // You will get response from your PHP page (what you echo or print)
