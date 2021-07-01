@@ -200,7 +200,7 @@
                         success: function (response) {
                             response = JSON.parse(response)
                             if(response.success == true){
-                                alert("success")
+                              $('.success-message').text('You have successfully submitted the form').removeClass('d-none');
                             }
                             
                            // You will get response from your PHP page (what you echo or print)
